@@ -1,8 +1,8 @@
 !function(){
   function f(){
-var a='<div class="alert alert-danger" style="display: inline-block;">Please disable Adblock to proceed to the destination page.</div>';
-$('.wpsafe-top').replaceWith(a);
-$('.wpsafe-bottom').replaceWith(a);
+var a='<div class="alert alert-danger">Please disable Adblock to proceed to the destination page.</div>';
+$('#wpsafe-generate').replaceWith(a);
+$('#wpsafe-link').replaceWith(a);
   $('.btn-xyz').replaceWith(a);
 };
 var b=document.createElement("script");b.type="text/javascript";
